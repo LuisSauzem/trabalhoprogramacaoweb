@@ -9,6 +9,7 @@ import { PaginaInicialComponent } from './componentes/pagina-inicial/pagina-inic
 import { VisualizarTarefasComponent } from './componentes/visualizar-tarefas/visualizar-tarefas.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import { CardapioComponent } from './componentes/cardapio/cardapio.component';
+import { CarrinhoComponent } from './componentes/carrinho/carrinho.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,9 @@ import { CardapioComponent } from './componentes/cardapio/cardapio.component';
     RodapeComponent,
     PaginaInicialComponent,
     VisualizarTarefasComponent,
-    CardapioComponent
+    CardapioComponent,
+    CarrinhoComponent,
+
   ],
   imports: [
     BrowserModule,
